@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather & Time Menu</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="container" class="hidden">
+        <h2>WEATHER & TIME MENU</h2>
+
+        <div class="menu-item">
+            <div class="label">
+                <span class="icon">🕒</span>
+                TIME OPTIONS
+            </div>
+            <div class="controls">
+                <button id="time-left">&lt;</button>
+                <span id="time-display">12</span>
+                <button id="time-right">&gt;</button>
+                <span class="count" id="time-count">&lt; 13/24 &gt;</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <div class="label">
+                <span class="icon">☁️</span>
+                WEATHER OPTIONS
+            </div>
+            <div class="controls">
+                <button id="weather-left">&lt;</button>
+                <span id="weather-display">FOGGY</span>
+                <button id="weather-right">&gt;</button>
+                <span class="count" id="weather-count">&lt; 9/15 &gt;</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
