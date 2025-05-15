@@ -21,10 +21,15 @@ A standalone FiveM NUI-based menu for changing weather and time in-game, designe
  - 3. Start the menu in-game by running the command `/weather`
 
 
-## 🖱️ Controls
- = ⬅️ ➡️ Use left/right arrows to change time and weather
+## 🖥️ Previews
 
- = 🖱️  press Esc to close the menu
+ - [Menu Preview](https://cdn.discordapp.com/attachments/1247863720366051348/1372415175465893999/image.png?ex=6826b0bc&is=68255f3c&hm=4b4bec551936e5a1f487d285f70be20714b1f6ffe76484fe01839e42d46d2d01&)
+
+
+## 🖱️ Controls
+ - ⬅️ ➡️ Use left/right arrows to change time and weather
+
+ - 🖱️  press Esc to close the menu
 
 
 ## 🔧 Customization
