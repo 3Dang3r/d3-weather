@@ -2,13 +2,24 @@ const timeOptions = 24;
 let currentTime = 12;
 
 const weatherOptions = [
-    "CLEAR", "EXTRASUNNY", "CLOUDS", "OVERCAST",
-    "RAIN", "THUNDER", "SMOG", "FOGGY",
-    "XMAS", "SNOWLIGHT", "BLIZZARD", "SNOW",
-    "HALLOWEEN", "CLEARING", "NEUTRAL"
+    "CLEAR",
+    "EXTRASUNNY",
+    "CLOUDS",
+    "OVERCAST",
+    "RAIN",
+    "THUNDER",
+    "SMOG",
+    "FOGGY",
+    "XMAS",
+    "SNOWLIGHT",
+    "BLIZZARD",
+    "SNOW",
+    "HALLOWEEN",
+    "CLEARING",
+    "NEUTRAL"
 ];
 
-let currentWeatherIndex = 7; // FOGGY
+let currentWeatherIndex = 7; 
 
 const container = document.getElementById('container');
 const timeDisplay = document.getElementById('time-display');
@@ -32,13 +43,12 @@ function updateTimeDisplay() {
 }
 
 function updateWeatherDisplay() {
-    const weatherName = weatherOptions[currentWeatherIndex];
-    weatherDisplay.textContent = weatherName;
+    weatherDisplay.textContent = weatherOptions[currentWeatherIndex];
     weatherCount.textContent = `< ${currentWeatherIndex + 1}/${weatherOptions.length} >`;
     fetch(`https://${GetParentResourceName()}/setWeather`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ weather: weatherName })
+        body: JSON.stringify({ weather: weatherOptions[currentWeatherIndex] })
     });
 }
 
