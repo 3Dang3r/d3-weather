@@ -6,7 +6,7 @@ A standalone FiveM NUI-based menu for changing weather and time in-game, designe
 
  - 🕒 Adjust time between 00–23 hours
 
- - 🖱️ Navigate with buttons or close with right-click or Escape
+ - 🖱️ Navigate with buttons or close with Esc
 
  - 🌐 Applies changes server-wide
 
@@ -30,11 +30,11 @@ A standalone FiveM NUI-based menu for changing weather and time in-game, designe
 ## 🔧 Customization
 You can:
 
- = Change default time/weather in script.js
+ -  Change default time/weather in script.js
 
- = Add admin permission checks to restrict access
+ -  Add admin permission checks to restrict access
 
- = Style the menu in style.css to match your server theme
+ - Style the menu in style.css to match your server theme
 
 
 ## ✅ Requirements
