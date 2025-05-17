@@ -23,7 +23,7 @@ A standalone FiveM NUI-based menu for changing weather and time in-game, designe
 
 ## 🖥️ Previews
 
- - [Menu Preview](https://cdn.discordapp.com/attachments/1247863720366051348/1372415175465893999/image.png?ex=6826b0bc&is=68255f3c&hm=4b4bec551936e5a1f487d285f70be20714b1f6ffe76484fe01839e42d46d2d01&)
+ - [Menu Preview](https://imgur.com/a/CkbEJNC)
 
 
 ## 🖱️ Controls
