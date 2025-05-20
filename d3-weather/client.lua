@@ -6,7 +6,7 @@ local function toggleMenu()
     SendNUIMessage({ action = menuOpen and "show" or "hide" })
 end
 
-RegisterCommand("weatherr", function()
+RegisterCommand("weather", function()
     toggleMenu()
 end)
 
